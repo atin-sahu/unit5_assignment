@@ -1,0 +1,8 @@
+.photo{
+    width: 500px;
+    
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
