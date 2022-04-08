@@ -14,7 +14,7 @@ function show(event){
     event.preventDefault();
 
     let text = document.getElementById("note").value
-    console.log(text);
+    // console.log(text);
     let para = document.createElement("p");
     para.textContent = "";
     para.textContent = text;

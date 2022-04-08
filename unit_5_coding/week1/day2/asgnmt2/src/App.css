@@ -1,0 +1,19 @@
+.navbar{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link_box{
+  font-size: 20px;
+  display: flex;
+  grid-gap: 30px;
+}
+button{
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  color: silver;
+  background-color: teal;
+}
