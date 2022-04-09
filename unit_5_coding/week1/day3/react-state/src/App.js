@@ -61,7 +61,7 @@ if(counter>3){
 export default App;
 
 
-// ------------------------fro createnig components or categories
+// ------------------------for createnig components or categories
 
 // function App() {
 
