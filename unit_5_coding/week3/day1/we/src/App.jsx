@@ -15,7 +15,7 @@ function App() {
       {/* <Button  children={"More"} onclick={()=>{alert("More")}}/> */}
       <Button  theme={theme} onClick={()=>{alert("Login")}}>Login</Button>
       <Button theme={theme} onClick={()=>{alert("Sign-up")}}>Sign</Button>
-      <Button onClick={()=>{alert("CLick-Me")}}>Click-Me</Button>
+      <Button type='dashed' onClick={()=>{alert("CLick-Me")}}>Click-Me</Button>
 
 
       <Flex>
