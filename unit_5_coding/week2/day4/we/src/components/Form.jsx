@@ -10,12 +10,13 @@ export const Form = ()=>{
         const {id,value} = e.target;
         setFormdata({
             ...formdata,[id]:value,
+            // ...formdata,[e.target.id]:e.target.value,
         });
     };
 
     const handleSubmit = (e)=>{
         e.preventDefault();
-        // console.log(formdata);
+        console.log(formdata);
     };
 
     return (

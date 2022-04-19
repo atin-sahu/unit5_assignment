@@ -13,8 +13,7 @@ function App() {
       <button onClick={()=>{setShow(!show)}}>{show ? "Hide" :"Show"}</button>
       {/* <h1>counter:{counter}</h1> */}
       {/* <button onClick={()=>{setCounter(counter+1)}}>add</button> */}
-      <Counter />
-
+      {/* <Counter /> */}
     </div>
   )
 }

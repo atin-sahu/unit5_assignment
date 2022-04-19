@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Counter } from "./Counter";
 
 export const Todos = ()=>{
 
@@ -41,12 +42,13 @@ export const Todos = ()=>{
 
         <div>
             {todos.map((e)=>{
-                return <div>
+                return <div key={e.id}>
                     <h3>{e.id} : {e.title}</h3>
                 </div>
             })}
             <button onClick={()=>{setPage(page-1)}}>Previous</button>
             <button onClick={()=>{setPage(page+1)}}>Next</button>
+            <Counter />
         </div>
     </div>
 }

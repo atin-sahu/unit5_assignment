@@ -13,7 +13,11 @@ export const Counter = ()=>{
                 return prevValue-1;
             });
             
-        },100);
+        },1000);
+
+        return ()=>{
+            clearInterval(id);
+        }
     },[]);
 
     return <div>
