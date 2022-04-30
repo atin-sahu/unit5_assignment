@@ -3,11 +3,7 @@ import { legacy_createStore as createStore } from "redux";
 import { reducer } from "./reducer";
 import { add_counter,add_stdudent } from "./action";
 
-const initState = {
-    counter:0,
-    todo:[{name:"atin",class:"BCS"}],
-    theme:"dark",
-}
+
 
 const store = createStore(reducer,initState);
 console.log("Store", store.getState());
