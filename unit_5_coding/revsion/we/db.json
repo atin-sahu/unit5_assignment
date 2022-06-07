@@ -1,0 +1,57 @@
+{
+    "todo_arr":[
+        {
+            "task":"personal",
+            "status":"done",
+            "des":"it is so impppo",
+            "sub_task":[
+                {
+                    "title":"utho"
+                }, {
+                    "title":"running karo"
+                }, {
+                    "title":"nashta karo"
+                }
+            ]
+        },{
+            "task":"official",
+            "status":"inProgress",
+            "des":"it is so impppo",
+            "sub_task":[
+                {
+                    "title":"utho"
+                }, {
+                    "title":"running karo"
+                }, {
+                    "title":"nashta karo"
+                }
+            ]
+        },{
+            "task":"official",
+            "status":"inProgress",
+            "des":"it is so impppo",
+            "sub_task":[
+                {
+                    "title":"utho"
+                }, {
+                    "title":"running karo"
+                }, {
+                    "title":"nashta karo"
+                }
+            ]
+        },{
+            "task":"others",
+            "status":"todo",
+            "des":"it is so impppo",
+            "sub_task":[
+                {
+                    "title":"utho"
+                }, {
+                    "title":"running karo"
+                }, {
+                    "title":"nashta karo"
+                }
+            ]
+        }
+    ]
+}
